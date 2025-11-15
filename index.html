@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Batelco — Chat with Basma (UI Only)</title>
+  <title>eGovBasma</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -14,9 +14,10 @@
     <header class="topbar">
       <div class="brand" aria-hidden="true">
         <div class="avatar bot" aria-hidden="true">
-          <img src="batelco_logo.png" alt="Batelco logo" />
+          <!--<img src="batelco_logo.png" alt="Batelco logo" />-->
+          <img src="basma.png" alt="Basma avatar" />
         </div>
-        <div class="brand-title">Batelco <span class="brand-sub">by Beyon</span></div>
+        <div class="brand-title">eGov Basma <!--<span class="brand-sub">by Beyon</span>--></div>
       </div>
 
       <div class="title" id="chatTitle">eGov Basma</div>
@@ -36,14 +37,16 @@
     <aside class="sidebar" id="sidebar" aria-label="Conversations">
       <div class="side-top">
         <button id="newChatBtn" class="side-btn" type="button">＋ New</button>
-        <button id="sidebarToggle" class="side-toggle" type="button" aria-label="Hide sidebar">⟨ Hide</button>
+        <button id="clearAllBtn" class="side-btn" title="Delete all chats">🗑 Delete all</button>
+        <button id="sidebarToggle" class="side-toggle" type="button" aria-label="Hide sidebar">Hide</button>
       </div>
       <div class="side-list" id="threadList" role="list"></div>
     </aside>
 
 
     <!-- Static handle to reopen sidebar when hidden (JS will use it if present) -->
-   <button id="sidebarHandle" class="sidebar-handle" type="button" aria-label="Show chats" title="Show chats">☰</button>
+    <button id="sidebarHandle" class="sidebar-handle" type="button" aria-label="Show chats"
+      title="Show chats">☰</button>
 
 
     <!-- Chat area -->

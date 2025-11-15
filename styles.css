@@ -638,6 +638,14 @@ body {
   box-shadow: 0 0 0 3px rgba(227, 38, 69, 0.4);
 }
 
+/* Add to styles.css */
+.side-btn.danger{
+  background:#fee2e2;
+  color:#7f1d1d;
+  border:1px solid #fecaca;
+}
+.side-btn.danger:hover{ background:#fecaca; }
+
 /* support RTL layout */
 [dir="rtl"] .thread-card { grid-template-columns: auto 1fr 40px; }
 [dir="rtl"] .thread-actions { order: -1; }
