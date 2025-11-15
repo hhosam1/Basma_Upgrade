@@ -730,7 +730,7 @@ if (IS_LOGIN) {
       });
     }
 
-    const url = new URL('index.html', window.location.href);
+    const url = new URL('chat.html', window.location.href);
     window.location.href = url.toString();
   });
 
@@ -748,7 +748,7 @@ if (IS_LOGIN) {
     safeSet(PKEY, profile);
     safeSet(UIK, { lang: 'en' });
 
-    const url = new URL('index.html', window.location.href);
+    const url = new URL('chat.html', window.location.href);
     window.location.href = url.toString();
   });
 
